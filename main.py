@@ -382,6 +382,6 @@ if __name__ == "__main__":
             nodes_str = " ".join(str(v) for v in nodes)
             f.write(f"{weight} {nodes_str}\n")
             
-    print(f"\n✅ Successfully performed Minimum Path-Cycle Decomposition.")
+    print(f"\n Successfully performed Minimum Path-Cycle Decomposition.")
     print(f"   |P| = {P}, |C| = {C} (Total: {P+C} is minimized)")
     print(f"   Output saved to: '{outputFileName}'")
